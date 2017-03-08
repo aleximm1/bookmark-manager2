@@ -24,8 +24,4 @@ class Bookmark < Sinatra::Base
     Link.create(title: params[:title], url: params[:url])
     redirect '/links'
   end
-
-
-
-
 end
